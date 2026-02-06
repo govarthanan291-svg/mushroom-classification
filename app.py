@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the pre-trained Gradient Boosting Classifier model
-with open("mushroom_model.pkl", "rb") as file:
+with open("mushroom_model (1).pkl", "rb") as file:
     model = pickle.load(file)
 
 # Streamlit page config
